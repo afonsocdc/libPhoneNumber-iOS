@@ -9,21 +9,8 @@
 $ swift scripts/metadataGenerator.swift
 Javascript exception thrown: ReferenceError: Can't find variable: window
 Done
-
-$ git status
-[...]
-        modified:   generatedJSON/PhoneNumberMetaData.json
-        modified:   generatedJSON/ShortNumberMetadata.json
-[...]
-
 $ cd libPhonenumber
-libPhoneNumber$ ./GeneratePhoneNumberHeader.sh
-libPhoneNumber$ git status
-[...]
-        modified:   ../generatedJSON/PhoneNumberMetaData.json
-        modified:   ../generatedJSON/ShortNumberMetadata.json
-        modified:   NBGeneratedPhoneNumberMetaData.h
-[...]
+$ ./GeneratePhoneNumberHeader.sh
 ```
 
 # **libPhoneNumber for iOS**
